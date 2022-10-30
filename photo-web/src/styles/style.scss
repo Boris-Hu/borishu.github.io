@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.loadPictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        color: white;
+        background-color: darkblue;
+        font-size: 40px;
+        padding: 20px;
+        margin: 15px 0px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    button:hover{
+        color: cyan;
+    }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";
